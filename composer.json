@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Loggyfier\\": "src/Loggyfier"
+      "Loggyfier\\": "src/Loggyfier/MyLogger"
     }
   },
   "autoload-dev": {

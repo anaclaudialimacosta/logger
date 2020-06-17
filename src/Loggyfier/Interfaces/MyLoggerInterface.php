@@ -1,6 +1,6 @@
 <?php
 
-namespace Loggyfier\Interfaces;
+namespace MyLogger\Interfaces;
 
 interface MyLoggerInterface
 {

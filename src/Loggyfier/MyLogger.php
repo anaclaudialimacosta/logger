@@ -2,7 +2,7 @@
 
 namespace MyLogger;
 
-use Loggyfier\Interfaces\MyLoggerInterface;
+use MyLogger\Interfaces\MyLoggerInterface;
 
 class MyLogger implements MyLoggerInterface
 {

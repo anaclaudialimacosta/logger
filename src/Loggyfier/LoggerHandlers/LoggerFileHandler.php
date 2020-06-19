@@ -2,7 +2,6 @@
 
 namespace MyLogger\LoggerHandlers;
 
-
 use MyLogger\Interfaces\MyLoggerInterface;
 
 class LoggerFileHandler implements MyLoggerInterface

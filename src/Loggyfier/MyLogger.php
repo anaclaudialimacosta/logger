@@ -4,11 +4,11 @@ namespace MyLogger;
 
 use MyLogger\Interfaces\MyLoggerInterface;
 
-class MyLogger implements MyLoggerInterface
+class MyLogger
 {
     private MyLoggerInterface $nextLoggerHandler;
 
-    public function log(string $log, array $logger)
+    public function loggerCOR(string $log, array $logger)
     {
         if(self::nextLoggerHandler)
         {

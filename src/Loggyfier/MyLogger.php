@@ -10,7 +10,7 @@ class MyLogger
 
     public function loggerCOR(string $log, array $logger)
     {
-        if(self::nextLoggerHandler)
+        if($this->nextLoggerHandler)
         {
             return $this->nextLoggerHandler->log($log, $logger);
 		}
@@ -18,7 +18,10 @@ class MyLogger
     
     private function setNextLoggerHandler(MyLoggerInterface $logger) : MyLoggerInterface
     {
-        $this->nextLoggerHandler = $logger;
+        if(!empty($logger))
+        {
+            $this->nextLoggerHandler = $logger;
+        }
         return $logger;
     }
 

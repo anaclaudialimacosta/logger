@@ -8,7 +8,7 @@ use PHPUnit\Util\Exception;
 
 class LoggerFileHandler implements MyLoggerInterface
 {
-    private $logInFileFormatter;
+    private LogInFileFormatter $logInFileFormatter;
 
     public function __construct(LogInFileFormatter $logInFileFormatter)
     {

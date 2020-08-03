@@ -4,3 +4,5 @@ logs/
 
 .phpunit*
 .DS_Store
+
+config.php
